@@ -4,7 +4,7 @@ const port = 3000;
 const server = http.createServer((req, res) => { 
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
-    res.end('04-10-01:25! \n');
+    res.end('04-10-01:28 ! \n');
 }); 
 server.listen(port, hostname, () => { 
     console.log(`Server running at http://${hostname}:${port}/`);
